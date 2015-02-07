@@ -13,7 +13,7 @@ var App = React.createClass({displayName: 'App',
 	render : function () {
 	    return (
 	    React.createElement("div", null, 	
-	    	React.createElement("div", {className: "small-4 columns small-centered"}, 
+	    	React.createElement("div", {className: "small-12 large-4 columns small-centered"}, 
 	    	    React.createElement("div", {className: "small-12 columns"}, 
 			      	React.createElement("input", {ref: "url", onInput: this._addHttp, placeholder: "Enter the long URL..."})
 			    ), 	

@@ -13,7 +13,7 @@ var App = React.createClass({
 	render : function () {
 	    return (
 	    <div>	
-	    	<div className='small-4 columns small-centered'>
+	    	<div className='small-12 large-4 columns small-centered'>
 	    	    <div className='small-12 columns'>
 			      	<input ref='url' onInput={this._addHttp} placeholder='Enter the long URL...'/>
 			    </div>	
